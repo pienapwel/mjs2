@@ -1,25 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #615e5e; /* Dark background color */
-    color: #f4f4f4; /* Light text color for contrast */
+    background-color: #615e5e; 
+    color: #f4f4f4; 
 }
 
 h1 {
     text-align: center;
-    color: #000000; /* Dark red for the header */
+    color: #000000; 
 }
 
 table {
     width: 100%;
-    border-collapse: collapse; /* Collapse borders to avoid double borders */
+    border-collapse: collapse; 
     margin-bottom: 20px;
-    background-color: #444; /* Dark gray background for the table */
-    color: #f4f4f4; /* Light text color for table */
+    background-color: #444; 
+    color: #f4f4f4; 
 }
 
 table, th, td {
-    border: 1px solid #666; /* Darker border color */
+    border: 1px solid #666;
 }
 
 th, td {
@@ -28,27 +28,27 @@ th, td {
 }
 
 th {
-    background-color: #b71c1c; /* Dark red for table header */
+    background-color: #b71c1c;
     color: white;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #555; /* Slightly lighter dark gray for even rows */
+    background-color: #555; 
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #444; /* Dark gray for odd rows */
+    background-color: #444; 
 }
 
 .summary {
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
-    color: #ffffff; /* Dark red color for summary text */
+    color: #ffffff; 
 }
 
 .lulus {
-    color: #4caf50; /* Green color for passing status */
+    color: #4caf50; 
 }
 
 .tidak-lulus {
