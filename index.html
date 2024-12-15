@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilai Siswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center; 
+        }
+        .main-table {
+            width: 70%;
+            margin: 0 auto; 
+            margin-bottom: 20px;
+        }
+        .main-table table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .main-table table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        .lulus {
+            background-color: #d4edda;
+        }
+        .tidak-lulus {
+            background-color: #f8d7da;
+        }
+        .summary {
+            width: 25%;
+            float: right;
+            margin-top: 20px;
+        }
+        .summary table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .summary table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+            font-size: 12px;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nilai Siswa</h1>
+
+    <!-- Tabel Utama: Daftar Nilai Siswa -->
+    <div class="main-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Nilai Rata-Rata</th>
+                    <th>Status Kelulusan</th>
+                    <th>Rekomendasi Perbaikan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andi</td>
+                    <td>78.33</td>
+                    <td class="lulus">Lulus</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Budi</td>
+                    <td>58.33</td>
+                    <td class="tidak-lulus">Tidak Lulus</td>
+                    <td>Bahasa Inggris</td>
+                </tr>
+                <tr>
+                    <td>Cici</td>
+                    <td>75.00</td>
+                    <td class="lulus">Lulus</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Dodi</td>
+                    <td>90.00</td>
+                    <td class="lulus">Lulus</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Eka</td>
+                    <td>55.00</td>
+                    <td class="tidak-lulus">Tidak Lulus</td>
+                    <td>Matematika</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabel Kanan: Jumlah Lulus dan Tidak Lulus -->
+    <div class="summary">
+        <table>
+            <thead>
+                <tr>
+                    <th>Keterangan</th>
+                    <th>Jumlah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jumlah siswa yang lulus</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Jumlah siswa yang tidak lulus</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="clear"></div>
+</body>
+</html>
